@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/ic_launcher_background"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/btnTaskScheduler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openTaskScheduler"
+        android:text="Task Scheduler"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_gradient"
+        android:elevation="4dp"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btnPomodoro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pomodoro Timer"
+        android:onClick="openPomodoro"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_gradient"
+        android:elevation="4dp"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btnProgressTracker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Progress Tracker"
+        android:onClick="openProgressTracker"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_gradient"
+        android:elevation="4dp"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btnGoalSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Goal Setting"
+        android:onClick="openGoalSetting"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_gradient"
+        android:elevation="4dp"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btnMotivationalMessages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Motivational Messages"
+        android:onClick="openMotivationalMessages"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_gradient"
+        android:elevation="4dp"
+        android:padding="16dp" />
+</LinearLayout>
